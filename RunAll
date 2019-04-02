@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+gnome-terminal -x go run ./backup/backup.go
+
+gnome-terminal -x go run ./singleElevator/FSM/fsm.go
+
+gnome-terminal -x go run ./singleElevator/msgHandler/msgHandler.go
+
